@@ -1,4 +1,4 @@
-require 'pry'
+
 class Dictionary
   attr_reader :dictionary
   def initialize
@@ -12,5 +12,5 @@ class Dictionary
       "#{word.upcase} is not a known word"
     end
   end
-  #binding.pry
+
 end

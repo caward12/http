@@ -1,4 +1,4 @@
-require './lib/http_iteration4'
+require './lib/http'
 
 server = HTTP.new
-server.get_request
+server.request
